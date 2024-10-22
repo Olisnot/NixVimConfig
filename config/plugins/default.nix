@@ -11,5 +11,8 @@
     ./cursorline.nix
     ./neoscroll.nix
     ./lualine.nix
+    ./trouble.nix
+    ./notify.nix
+    ./floaterm.nix
 ];
 }
