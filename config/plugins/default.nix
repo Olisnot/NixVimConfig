@@ -13,7 +13,6 @@
     ./lualine.nix
     ./trouble.nix
     ./notify.nix
-    ./floaterm.nix
     ./compiler.nix
 ];
 }
