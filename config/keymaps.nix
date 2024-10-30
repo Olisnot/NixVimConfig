@@ -6,16 +6,16 @@
       mode = [ "n" ];
     }
     {
-      action = ":m +1<CR>";
+      action = ":m +1<CR>gv=gv";
       key = "<A-j>";
       mode = [ "n" ];
     }{
-      action = ":m'>+1<CR>v";
+      action = ":m'>+1<CR>gv=gv";
       key = "<A-j>";
       mode = [ "v" ];
     }
     {
-      action = ":m -2<CR>";
+      action = ":m -2<CR>gv=gv";
       key = "<A-k>";
       mode = [ "n" "v" ];
     }
