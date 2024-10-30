@@ -5,7 +5,7 @@
     conceallevel = 2;
     hlsearch = false;
     incsearch = true;
-    #scrolloff = 8;
+    scrolloff = 8;
   };
   globals.mapleader = " ";
 }
