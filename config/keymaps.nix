@@ -6,12 +6,12 @@
       mode = [ "n" ];
     }
     {
-      action = ":m +1<CR>gv=gv";
+      action = ":m +1<CR>";
       key = "<A-j>";
       mode = [ "n" "v" ];
     }
     {
-      action = ":m -2<CR>gv=gv";
+      action = ":m -2<CR>";
       key = "<A-k>";
       mode = [ "n" "v" ];
     }
