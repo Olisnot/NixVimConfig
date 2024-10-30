@@ -7,12 +7,12 @@
     }
     {
       action = "<cmd>m '>+1<CR>gv=gv";
-      key = "<leader>J";
+      key = "<A-j>";
       mode = [ "n" "v" ];
     }
     {
       action = "<cmd>m '>-2<CR>gv=gv";
-      key = "<leader>K";
+      key = "<A-k>";
       mode = [ "n" "v" ];
     }
     {
