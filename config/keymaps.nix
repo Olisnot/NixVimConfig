@@ -10,7 +10,7 @@
       key = "<A-j>";
       mode = [ "n" ];
     }{
-      action = ":m`>+<CR>";
+      action = ":m'>+1<CR>";
       key = "<A-j>";
       mode = [ "v" ];
     }
