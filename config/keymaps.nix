@@ -5,5 +5,40 @@
       key = "<leader>e";
       mode = [ "n" ];
     }
+    {
+      action = "<cmd>m '>+1<CR>gv=gv";
+      key = "<leader>J";
+      mode = [ "n" "v" ];
+    }
+    {
+      action = "<cmd>m '>-2<CR>gv=gv";
+      key = "<leader>K";
+      mode = [ "n" "v" ];
+    }
+    {
+      action = "<C-d>zz";
+      key = "<C-d>";
+      mode = [ "n" ];
+    }
+    {
+      action = "<C-u>zz";
+      key = "<C-u>";
+      mode = [ "n" ];
+    }
+    {
+      action = "nzzzv";
+      key = "n";
+      mode = [ "n" ];
+    }
+    {
+      action = "Nzzzv";
+      key = "N";
+      mode = [ "n" ];
+    }
+    {
+      action = "\"_dp";
+      key = "<leader>p";
+      mode = [ "x" ];
+    }
   ];
 }
