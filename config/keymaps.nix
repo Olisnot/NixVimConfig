@@ -6,12 +6,12 @@
       mode = [ "n" ];
     }
     {
-      action = "<cmd>m '>+1<CR>gv=gv";
+      action = ":m '>+1<CR>gv=gv";
       key = "<A-j>";
       mode = [ "n" "v" ];
     }
     {
-      action = "<cmd>m '>-2<CR>gv=gv";
+      action = ":m '>-2<CR>gv=gv";
       key = "<A-k>";
       mode = [ "n" "v" ];
     }
