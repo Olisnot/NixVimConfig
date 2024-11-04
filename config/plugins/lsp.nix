@@ -19,8 +19,6 @@
     servers = {
       nil_ls.enable = true;
       bashls.enable = true;
-      pylyzer.enable = true;
-      marksman.enable = true;
     };
   };
 }
