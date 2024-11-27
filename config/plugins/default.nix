@@ -8,11 +8,13 @@
     ./undotree.nix
     ./lsp.nix
     ./otter.nix
+    ./oil.nix
     ./cursorline.nix
     ./neoscroll.nix
     ./lualine.nix
     ./trouble.nix
     ./notify.nix
     ./compiler.nix
+    ./floaterm.nix
 ];
 }
