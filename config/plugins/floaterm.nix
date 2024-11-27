@@ -2,7 +2,7 @@
   plugins.floaterm = {
     enable = true;
     keymaps = {
-      toggle = "<F12>";
+      toggle = "<leader>tt";
     };
   };
 }

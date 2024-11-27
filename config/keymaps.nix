@@ -1,11 +1,6 @@
 {
   keymaps = [
     {
-      action = "<cmd>Ex<CR>";
-      key = "<leader>e";
-      mode = [ "n" ];
-    }
-    {
       action = ":m +1<CR>gv=gv";
       key = "<A-j>";
       mode = [ "n" ];
