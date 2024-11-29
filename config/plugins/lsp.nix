@@ -17,7 +17,7 @@
       };
     };
     servers = {
-      nil_ls.enable = true;
+      nixd.enable = true;
       bashls.enable = true;
     };
   };
