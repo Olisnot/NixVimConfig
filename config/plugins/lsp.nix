@@ -17,7 +17,23 @@
       };
     };
     servers = {
-      nixd.enable = true;
+      nixd = {
+        enable = true;
+        extraOptions = {
+          offset_encoding = "utf-8";
+        };
+        settings = {
+          nixpkgs.expr = "import <nixpkgs> {}";
+          formatting.command = [ "nixfmt" ];
+          options = 
+          let
+            flake = "(builtins.getFlake \"/nixos\")";
+          in
+          {
+            nixos.expr = "${flake}.nixosConfigurations.default.options";
+          };
+        };
+      };
       bashls.enable = true;
     };
   };
