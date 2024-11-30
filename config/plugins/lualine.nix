@@ -4,7 +4,7 @@
     settings = {
       options = {
         icons_enabled = true;
-        theme = "wombat";
+        theme = "base16";
         component_separators = {
           left = "";
           right = "";
