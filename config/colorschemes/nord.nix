@@ -1,5 +1,0 @@
-{
-  colorschemes.nord = {
-    enable = true;
-  };
-}
