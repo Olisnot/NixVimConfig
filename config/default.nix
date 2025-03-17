@@ -5,5 +5,5 @@
     ./colorschemes
     ./options.nix
     ./keymaps.nix
-];
+  ];
 }

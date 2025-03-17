@@ -4,8 +4,8 @@
     ./vim-nix.nix
     ./treesitter.nix
     ./telescope.nix
-    ./coq.nix
     ./undotree.nix
+    ./cmp.nix
     ./lsp.nix
     ./otter.nix
     ./oil.nix
