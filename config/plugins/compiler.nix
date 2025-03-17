@@ -14,6 +14,5 @@
   plugins = {
     compiler.enable = true;
     overseer.enable = true;
-    dap-lldb.enable = true;
   };
 }
