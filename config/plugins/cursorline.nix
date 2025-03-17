@@ -1,9 +1,11 @@
 {
   plugins.cursorline = {
-    settings = {
-      cursorline.enable = false;
-      cursorword.enable = true;
+    enable = true;
+    cursorline = {
+      enable = false;
+    };
+    cursorword = {
+      enable = true;
     };
   };
-  plugins.dap-lldb.enable = true;
 }
