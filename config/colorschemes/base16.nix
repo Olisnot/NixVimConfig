@@ -25,9 +25,5 @@
       base0E = "#ac8aac";
       base0F = "#ac8a8c";
     };
-    luaConfig.post = ''
-    vim.cmd('hi Normal ctermbg=NONE guibg=NONE')
-    vim.cmd('hi NonText ctermbg=NONE guibg=NONE')
-    '';
   };
 }
